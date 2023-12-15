@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Directly set the API key (replace with your actual API key)
-api_key = "your_api_key"
+api_key = "your_api_key_dummy"
 
 # Configure genai with the API key
 genai.configure(api_key=api_key)
